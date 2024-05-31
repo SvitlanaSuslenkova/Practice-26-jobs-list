@@ -1,4 +1,16 @@
 {
+  "name": "my-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix api && npm install --prefix react",
+    "build": "npm run build --prefix react",
+    "start": "npm run start --prefix api"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
     "gh-pages": "^6.1.1"
   }

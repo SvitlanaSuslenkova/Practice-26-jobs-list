@@ -116,3 +116,7 @@ function JobsPage() {
 }
 
 export default JobsPage;
+/*  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build"
+  }*/
